@@ -1,0 +1,15 @@
+require('../sass/main.scss');
+
+class Person {
+
+    constructor (name) {
+        $this.name = name;
+    }
+
+    walk () {
+        console.log(this.name + ' is walking.');
+    }
+}
+
+
+let bob = new Person ('bon');
